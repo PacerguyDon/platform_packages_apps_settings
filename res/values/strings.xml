@@ -28,9 +28,6 @@
     <!-- Settings main menu category heading. Wireless and networks (Wi-Fi, Bluetooth, data usage...). [CHAR LIMIT=40] -->
     <string name="header_category_wireless_networks">WIRELESS &amp; NETWORKS</string>
 
-    <!-- BUILD TWEAKS Settings. ras cream sandwich. [CHAR LIMIT=40] -->
-    <string name="header_category_rascreamsandwich">RAS CREAM SANDWICH</string>
-     
     <!-- Settings main menu category heading. Device (Sound, display, battery, applications...). [CHAR LIMIT=40] -->
     <string name="header_category_device">DEVICE</string>
     <!-- Settings main menu category heading. Personal (Accounts, security, language, backup...). [CHAR LIMIT=40] -->
@@ -3795,10 +3792,6 @@ found in the list of installed apps.</string>
     "system_update_settings_list_item_title" in this project. [CHAR LIMIT=25] -->
     <string name="additional_system_update_settings_list_item_title">Additional system updates</string>
 
-    <!-- BUILD TWEAKS. System -->
-    <string name="system_settings_title">Build tweaks</string>
-    <string name="system_interface_title">System interface</string>
-
     <!-- BUILD TWEAKS. Status bar toggles settings -->
     <string name="toggles_layout">Status bar toggles</string>
     <string name="enabled_toggles_title">Enabled toggles</string>
@@ -3807,7 +3800,6 @@ found in the list of installed apps.</string>
     <string name="always_visible_toggles">Auto-hide</string>
     <string name="default_title">Reset defaults</string>
     <string name="brightness_location_title">Brightness slider location</string>
-
 
     <!-- Performance Settings -->
     <string name="performance_settings_title">Performance</string>
