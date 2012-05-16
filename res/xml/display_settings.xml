@@ -57,10 +57,16 @@
             android:title="@string/notification_pulse_title"
             android:persistent="false" />
 
-        <!-- BUILD TWEAKS Toggle Settings -->
+        <!-- BUILD TWEAKS. Toggle Settings -->
         <PreferenceScreen
-                android:id="@+id/statusbar_toggles"
-                android:fragment="com.android.settings.rascarlo.fragments.StatusBarToggles"
-                android:title="@string/toggles_layout" />
+             android:id="@+id/statusbar_toggles"
+             android:fragment="com.android.settings.rascarlo.fragments.StatusBarToggles"
+             android:title="@string/toggles_layout" />
+
+        <!-- BUILD TWEAKS. Battery Percentage -->
+        <CheckBoxPreference
+             android:key="battery_percentage"
+             android:title="@string/title_battery_percentage"
+             android:defaultValue="false" />
 
 </PreferenceScreen>
