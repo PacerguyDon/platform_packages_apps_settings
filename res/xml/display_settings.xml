@@ -23,10 +23,6 @@
                 android:title="@string/brightness"
                 android:dialogTitle="@string/brightness" />
 
-        <CheckBoxPreference
-            android:key="brightness_auto_dim"
-            android:title="@string/brightness_auto_dim_title"/>
-
         <PreferenceScreen
                 android:key="wallpaper"
                 android:title="@string/wallpaper_settings_title"
@@ -66,6 +62,11 @@
              android:id="@+id/statusbar_toggles"
              android:fragment="com.android.settings.rascarlo.fragments.StatusBarToggles"
              android:title="@string/toggles_layout" />
+
+        <!-- BUILD TWEAKS. Auto-dim backlight -->
+        <CheckBoxPreference
+            android:key="brightness_auto_dim"
+            android:title="@string/brightness_auto_dim_title"/>
 
         <!-- BUILD TWEAKS. Battery Percentage -->
         <CheckBoxPreference
