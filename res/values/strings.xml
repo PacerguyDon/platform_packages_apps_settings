@@ -3818,4 +3818,8 @@ found in the list of installed apps.</string>
     <!-- BUILD TWEAKS. Battery Percentage -->
     <string name="title_battery_percentage">Battery percentage</string>
 
+    <!-- BUILD TWEAKS. Volume rocker wake -->
+    <string name="pref_volume_wake_title">Volume rocker wake</string>
+    <string name="pref_volume_wake_summary">Pressing the volume up/down wakes the Nexus</string>
+
 </resources>
