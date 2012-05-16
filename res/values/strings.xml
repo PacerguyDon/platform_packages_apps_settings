@@ -3792,6 +3792,9 @@ found in the list of installed apps.</string>
     "system_update_settings_list_item_title" in this project. [CHAR LIMIT=25] -->
     <string name="additional_system_update_settings_list_item_title">Additional system updates</string>
 
+    <!-- BUILD TWEAKS. Category -->
+    <string name="build_tweaks_category">BUILD TWEAKS</string>
+
     <!-- BUILD TWEAKS. Status bar toggles settings -->
     <string name="toggles_layout">Status bar toggles</string>
     <string name="enabled_toggles_title">Enabled toggles</string>

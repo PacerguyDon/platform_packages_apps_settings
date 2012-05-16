@@ -56,6 +56,10 @@
             android:key="notification_pulse"
             android:title="@string/notification_pulse_title"
             android:persistent="false" />
+            
+        <!-- BUILD TWEAKS. Category -->
+        <PreferenceCategory android:title="@string/build_tweaks_category" >
+        </PreferenceCategory>
 
         <!-- BUILD TWEAKS. Toggle Settings -->
         <PreferenceScreen
