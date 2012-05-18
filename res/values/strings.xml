@@ -3801,6 +3801,7 @@ found in the list of installed apps.</string>
 
     <!-- BUILD TWEAKS. Status bar toggles settings -->
     <string name="toggles_layout">Status bar toggles</string>
+    <string name="toggles_layout_summary">Long-press Settings icon in status bar to enter Settings</string>
     <string name="enabled_toggles_title">Enabled toggles</string>
     <string name="toggles_order_title">Toggles order</string>
     <string name="alternate_button_layout_title">Use icons instead of switches</string>

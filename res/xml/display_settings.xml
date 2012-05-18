@@ -61,7 +61,8 @@
         <PreferenceScreen
              android:id="@+id/statusbar_toggles"
              android:fragment="com.android.settings.rascarlo.fragments.StatusBarToggles"
-             android:title="@string/toggles_layout" />
+             android:title="@string/toggles_layout" 
+             android:summary="@string/toggles_layout_summary"/>
 
         <!-- BUILD TWEAKS. Auto-dim backlight -->
         <CheckBoxPreference
