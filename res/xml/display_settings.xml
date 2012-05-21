@@ -57,6 +57,12 @@
         <PreferenceCategory android:title="@string/build_tweaks_category" >
         </PreferenceCategory>
 
+        <!-- BUILD TWEAKS. NavigationBar Customization -->
+        <PreferenceScreen
+            android:key="navigation_bar"
+            android:fragment="com.android.settings.rascarlo.NavBar"
+            android:title="@string/navigation_bar_title" />
+
         <!-- BUILD TWEAKS. Toggle Settings -->
         <PreferenceScreen
              android:id="@+id/statusbar_toggles"
