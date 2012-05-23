@@ -66,6 +66,14 @@ public class NavBar extends Fragment {
         mActivity.sendBroadcast(mIntent);
     }
 
+    @Override
+    public void onResume() {
+        super.onResume();
+        // If running on a phone, remove padding around container
+        if (!Utils.isScreenLarge()) {
+            mContainer.setPadding(0, 0, 0, 0);
+        }
+    }
 
     @Override
     public void onCreateOptionsMenu(Menu menu, MenuInflater inflater) {
