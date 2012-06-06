@@ -113,10 +113,13 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
 
         mNotificationPulse = (CheckBoxPreference) findPreference(KEY_NOTIFICATION_PULSE);
         
-        if (Utils.isScreenLarge() || !getResources().getBoolean(
-                com.android.internal.R.bool.config_showNavigationBar)) {
-            getPreferenceScreen().removePreference(findPreference(KEY_NAVIGATION_BAR));
-        }
+        IWindowManager windowManager = IWindowManager.Stub.asInterface(ServiceManager.getService(Context.WINDOW_SERVICE));
+        try {
+            if (!windowManager.hasNavigationBar()) {
+                getPreferenceScreen().removePreference(findPreference(KEY_NAVIGATION_BAR));
+            }
+        } catch (RemoteException e) {
+            }
         
         if (mNotificationPulse != null
                 && getResources().getBoolean(
