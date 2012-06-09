@@ -27,12 +27,6 @@
             android:streamType="ring" />
 
     <ListPreference
-            android:key="volume_overlay"
-            android:title="@string/volume_overlay_title"
-            android:entries="@array/volume_overlay_entries"
-            android:entryValues="@array/volume_overlay_values" />
-
-    <ListPreference
             android:key="silent_mode"
             android:title="@string/silent_mode_title"
             android:entries="@array/silent_mode_entries"
@@ -105,6 +99,13 @@
             android:summary="@string/volume_adjust_sounds_enable_summary"
             android:persistent="true" />
 
+    <!-- BUILD TWEAKS. Volume overlay -->
+    <ListPreference
+            android:key="volume_overlay"
+            android:title="@string/volume_overlay_title"
+            android:entries="@array/volume_overlay_entries"
+            android:entryValues="@array/volume_overlay_values" />
+    
     <ListPreference
             android:key="emergency_tone"
             android:title="@string/emergency_tone_title"
