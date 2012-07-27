@@ -61,6 +61,11 @@
         <!-- BUILD TWEAKS. Category -->
         <PreferenceCategory android:title="@string/build_tweaks_category" >
         </PreferenceCategory>
-        
+
+        <!-- BUILD TWEAKS. Battery percentage -->
+        <CheckBoxPreference
+             android:key="battery_percentage"
+             android:title="@string/title_battery_percentage"
+             android:defaultValue="flase" />
 
 </PreferenceScreen>
