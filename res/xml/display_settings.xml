@@ -62,6 +62,17 @@
         <PreferenceCategory android:title="@string/build_tweaks_category" >
         </PreferenceCategory>
 
+        <!-- BUILD TWEAKS. Power Widget -->
+        <PreferenceScreen
+          android:key="notification_drawer"
+          android:fragment="com.android.settings.rascarlo.PowerWidget"
+          android:title="@string/notification_drawer_title" />
+
+       <PreferenceScreen
+          android:key="notification_drawer_tablet"
+          android:fragment="com.android.settings.rascarlo.TabletPowerWidget"
+          android:title="@string/notification_drawer_title" />
+        
         <!-- BUILD TWEAKS. Battery percentage -->
         <CheckBoxPreference
              android:key="battery_percentage"
