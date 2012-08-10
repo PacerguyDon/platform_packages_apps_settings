@@ -15,17 +15,12 @@
 
 package com.android.settings.rascarlo;
 
-import android.app.ActivityManagerNative;
 import android.content.Context;
-import android.content.res.Configuration;
-import android.content.res.Resources;
 import android.os.Bundle;
 import android.os.RemoteException;
 import android.os.ServiceManager;
-import android.preference.ListPreference;
 import android.preference.Preference;
 import android.preference.PreferenceScreen;
-import android.util.Log;
 import android.view.IWindowManager;
 
 import com.android.settings.R;
@@ -42,9 +37,7 @@ public class SystemSettings extends SettingsPreferenceFragment implements
 
     private PreferenceScreen mPhoneDrawer;
     private PreferenceScreen mTabletDrawer;
-    
-    private final Configuration mCurConfig = new Configuration();
-    
+        
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -64,15 +57,20 @@ public class SystemSettings extends SettingsPreferenceFragment implements
             }
         }
 
-        IWindowManager windowManager = IWindowManager.Stub.asInterface(ServiceManager.getService(Context.WINDOW_SERVICE));
+        IWindowManager windowManager = IWindowManager.Stub.asInterface(
+                ServiceManager.getService(Context.WINDOW_SERVICE));
         try {
-            Preference naviBar = findPreference(KEY_NAVIGATION_BAR);
-            if (!windowManager.hasNavigationBar() && naviBar != null) {
-                getPreferenceScreen().removePreference(naviBar);
+            if (!windowManager.hasNavigationBar()) {
+                Preference naviBar = findPreference(KEY_NAVIGATION_BAR);
+                if (naviBar != null) {
+                    getPreferenceScreen().removePreference(naviBar);
+                }
             }
         } catch (RemoteException e) {
         }
     }
+
+    
 
     @Override
     public void onResume() {
