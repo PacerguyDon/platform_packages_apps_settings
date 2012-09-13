@@ -4106,4 +4106,177 @@
     <string name="cell_broadcast_settings">Cell broadcasts</string>
     <!-- Cell Broadcast settings description [CHAR LIMIT=100] -->
     <string name="cell_broadcast_settings_summary">Select the types of emergency alerts to display.</string>
+    
+    <!-- CYANOGENMOD EDITS START -->
+
+    <!-- rasbeanjeally Settings  -->
+    <!-- Settings main menu category heading. Interface (Launcher, Themes, System). [CHAR LIMIT=40] -->
+    <string name="header_category_interface">RASBEANJELLY</string>
+
+    <!-- System Interface settings  -->
+    <string name="system_settings_title">Build Tweaks</string>
+    <string name="system_interface_title">Build Tweaks</string>
+
+    <!-- Notification Drawer  -->
+    <string name="notification_drawer_title">Notification drawer</string>
+
+    <!-- Combined Bar  -->
+    <string name="combined_bar_title">Combined bar</string>
+    <string name="combined_bar_auto_hide_title">Auto hide</string>
+    <string name="combined_bar_auto_hide_summary">Allow combined bar to hide when showing a fullscreen app</string>
+
+    <!-- Navigation Bar  -->
+    <string name="navigation_bar_title">Navigation bar</string>
+
+    <string name="navigation_bar_help_text">1 - To begin editing, tap the lock icon\n\n2 - Tap any button to assign or change functionality\n\n3 - Long press any button to rearrange the order\n\n4 - To save, tap the lock icon again\n\n5 - To restore system default, tap the reset button\n\n</string>
+    <string name="navigation_bar_tips">&#8226; Actions can only be assigned to one button at a time\n\n&#8226; The home button cannot be re-assigned\n\n&#8226; Side buttons cannot be rearranged</string>
+    <string name="navigation_bar_tips_title">Quick tips</string>
+    <string name="navigation_bar_reset_message">Delete current settings and restore to default?</string>
+    <string name="navigation_bar_save_message">Navigation bar settings saved</string>
+    <string name="navigation_bar_reset_toast">Navigation bar reset to default</string>
+
+    <!-- Power Widget  -->
+    <string name="power_widget_title">Power widget</string>
+    <string name="title_expanded_widget">Power widget</string>
+    <string name="title_expanded_hide_onchange">Close drawer on change</string>
+    <string name="title_expanded_hide_indicator">Hide indicators</string>
+    <string name="title_expanded_hide_scrollbar">Hide scrollbar</string>
+    <string name="title_widget_picker">Widget buttons</string>
+    <string name="summary_widget_picker">View or change the displayed buttons</string>
+    <string name="title_widget_order">Widget button order</string>
+    <string name="summary_widget_order">View or change the order of the buttons</string>
+    <string name="title_buttons">Buttons</string>
+    <string name="title_toggle_wifi">Toggle Wi-Fi</string>
+    <string name="title_toggle_bluetooth">Toggle Bluetooth</string>
+    <string name="title_toggle_gps">Toggle GPS</string>
+    <string name="title_toggle_sound">Toggle Sound</string>
+    <string name="title_toggle_brightness">Toggle Brightness</string>
+    <string name="title_toggle_sync">Toggle Sync</string>
+    <string name="title_toggle_wifiap">Toggle Wi-Fi AP</string>
+    <string name="title_toggle_screentimeout">Toggle Screen timeout</string>
+    <string name="title_toggle_mobiledata">Toggle Mobile data</string>
+    <string name="title_toggle_lockscreen">Toggle Lock screen</string>
+    <string name="title_toggle_networkmode">Toggle 2G/3G</string>
+    <string name="title_toggle_autorotate">Toggle Orientation</string>
+    <string name="title_toggle_airplane">Toggle Airplane mode</string>
+    <string name="title_toggle_flashlight">Toggle LED flashlight</string>
+    <string name="title_toggle_sleep">Go to sleep</string>
+    <string name="title_toggle_media_play_pause">Media: Toggle Play/Pause</string>
+    <string name="title_toggle_media_previous">Media: Skip to Previous</string>
+    <string name="title_toggle_media_next">Media: Skip to Next</string>
+    <string name="title_toggle_lte">Toggle LTE</string>
+    <string name="title_toggle_wimax">Toggle WiMAX</string>
+    <string name="title_button_modes">Button modes</string>
+    <string name="pref_brightness_mode_title">Brightness modes</string>
+    <string name="pref_brightness_mode_summary">View or change the Brightness button modes</string>
+    <string name="cm_brightness_mode_auto">Auto</string>
+    <string name="cm_brightness_mode_dim">Dim</string>
+    <string name="pref_network_mode_title">Network modes</string>
+    <string name="pref_screentimeout_mode_title">Screen timeout modes</string>
+    <string name="pref_ring_mode_title">Sound modes</string>
+    <string name="pref_ring_mode_summary">View or change the Sound button modes</string>
+    <string name="cm_sound_mode_silent">Silent</string>
+    <string name="cm_sound_mode_vibrate">Vibrate</string>
+    <string name="cm_sound_mode_sound">Sound</string>
+    <string name="cm_sound_mode_soundVibrate">Sound + Vibrate</string>
+    <string name="pref_flash_mode_title">Flash mode</string>
+    <string name="expanded_haptic_feedback_title">Haptic feedback</string>
+
+    <!-- Status bar  -->
+    <string name="combined_status_bar_title">@string/status_bar_title</string>
+    <string name="status_bar_title">Status bar</string>
+    <string name="status_bar_clock_title">Clock</string>
+    <string name="status_bar_general_title">General</string>
+    <string name="status_bar_show_clock_title">Show clock</string>
+    <string name="status_bar_show_clock_summary">Show the clock in the status bar</string>
+    <string name="status_bar_am_pm_title">AM/PM style</string>
+    <string name="status_bar_am_pm_summary">Display style of AM/PM next to clock</string>
+    <string name="status_bar_am_pm_info">24-hour clock is enabled</string>
+    <string name="status_bar_battery_title">Battery status style</string>
+    <string name="status_bar_battery_summary">Display style of battery status</string>
+    <string name="status_bar_toggle_brightness">Brightness control</string>
+    <string name="status_bar_toggle_brightness_summary">Allows adjusting of brightness by sliding across statusbar</string>
+    <string name="status_bar_toggle_info">Automatic brightness is enabled</string>
+
+    <!-- Lock Screen Shortcuts -->
+    <string name="lockscreen_target_info">Drag the slider to targets to assign shortcuts</string>
+    <string name="lockscreen_target_title">Slider shortcuts</string>
+    <string name="lockscreen_target_summary">View or change custom lock screen shortcuts</string>
+    <string name="lockscreen_target_reset">Lock screen shortcuts reset to default</string>
+    <string name="lockscreen_target_save">Lock screen shortcuts saved</string>
+    <string name="lockscreen_target_reset_title">Reset</string>
+    <string name="lockscreen_target_reset_message">Delete all user created lock screen shortcuts and restore to default?</string>
+    <string name="lockscreen_target_empty">Empty</string>
+    <string name="lockscreen_target_edit_title">Edit shortcut and icon</string>
+    <string name="lockscreen_target_edit_msg">Select or change the desired application or activity and the associated icon</string>
+
+    <!-- Display : Rotation  -->
+    <string name="display_rotation_title">Rotation</string>
+    <string name="display_rotation_enabled">Enabled.</string>
+    <string name="display_rotation_disabled">Disabled.</string>
+    <string name="display_rotation_unit">degrees</string>
+    <string name="display_rotation_category_title">Rotation modes</string>
+    <string name="display_rotation_0_title">0 degrees</string>
+    <string name="display_rotation_90_title">90 degrees</string>
+    <string name="display_rotation_180_title">180 degrees</string>
+    <string name="display_rotation_270_title">270 degrees</string>
+
+    <!-- Lock screen shortcuts -->
+    <string name="profile_reset_title">Reset</string>
+    <string name="picker_activities">Activities</string>
+    <string name="select_custom_app_title">Select custom application</string>
+    <string name="select_custom_activity_title">Select custom activity</string>
+    <string name="icon_picker_choose_icon_title">Choose icon</string>
+    <string name="icon_picker_alarm">Alarm</string>
+    <string name="icon_picker_browser">Browser</string>
+    <string name="icon_picker_calendar">Calendar</string>
+    <string name="icon_picker_camera">Camera</string>
+    <string name="icon_picker_chrome">Chrome</string>
+    <string name="icon_picker_email">Email</string>
+    <string name="icon_picker_facebook">Facebook</string>
+    <string name="icon_picker_gallery">Gallery</string>
+    <string name="icon_picker_googleplus">Google Plus</string>
+    <string name="icon_picker_googletalk">Google Talk</string>
+    <string name="icon_picker_maps">Maps</string>
+    <string name="icon_picker_movie">Movie</string>
+    <string name="icon_picker_music">Music</string>
+    <string name="icon_picker_nav_normal">Navigation</string>
+    <string name="icon_picker_phone">Phone</string>
+    <string name="icon_picker_podcast">Podcast</string>
+    <string name="icon_picker_rss">Rss</string>
+    <string name="icon_picker_search">Search</string>
+    <string name="icon_picker_sms">Messaging</string>
+    <string name="icon_picker_twitter">Twitter</string>
+
+    <!-- String for IconPicker -->
+    <string name="icon_picker_title">Choose icon source</string>
+    <string name="icon_picker_system_icons_title">System icons</string>
+    <string name="icon_picker_gallery_title">Gallery</string>
+    <string name="icon_picker_pack_title">Icon pack</string>
+
+     <string name="link_volume_ringtones">Link ringtone &amp; notifications volumes</string>
+     <string name="link_volume_mutes">Silent mode affects notifications</string>
+
+    <!-- Sound settings screen -->
+    <string name="volume_overlay_title">Volume panel style</string>
+    <string name="silent_mode_title">Silent mode</string>
+    <string name="volbtn_music_controls_title">Volume rocker music controls</string>
+    <string name="volbtn_music_controls_summary">When screen off, long-pressing the volume rockers will seek music tracks</string>
+    <string name="volume_ring_only_description">Ringtones</string>
+
+    <!-- Wakeup options -->
+    <string name="display_category_wakeup_options_title">Wakeup options</string>
+    <string name="pref_volume_wake_title">Volume rocker wake</string>
+    <string name="pref_volume_wake_summary">Pressing the volume rocker will wake your Nexus</string>
+
+    <string name="ok">OK</string>
+
+    <!-- Kill app long-press back -->
+    <string name="kill_app_longpress_back">Kill app back button</string>
+    <string name="kill_app_longpress_back_summary">Kill the foreground app by long-pressing the back key</string>
+
+    <!-- About phone screen, build date of ROM -->
+    <string name="build_date">rasbeanjelly build date</string>
+    <string name="build_date_default">2012-01-01-0000</string>
+
 </resources>

@@ -22,6 +22,11 @@
                 android:key="brightness"
                 android:title="@string/brightness"
                 android:dialogTitle="@string/brightness" />
+        
+        <PreferenceScreen
+            android:key="display_rotation"
+            android:fragment="com.android.settings.rascarlo.DisplayRotation"
+            android:title="@string/display_rotation_title" />
 
         <PreferenceScreen
                 android:key="wallpaper"
@@ -57,5 +62,15 @@
             android:key="notification_pulse"
             android:title="@string/notification_pulse_title"
             android:persistent="false" />
+
+        <PreferenceCategory
+            android:key="category_wakeup_options"
+            android:title="@string/display_category_wakeup_options_title"/>
+
+        <CheckBoxPreference
+            android:key="pref_volume_wake"
+            android:title="@string/pref_volume_wake_title"
+            android:summary="@string/pref_volume_wake_summary"
+            android:defaultValue="false" />
 
 </PreferenceScreen>
