@@ -89,6 +89,7 @@ public class ShortcutPickHelper {
                 shortcutNames.add(s);
             }
         }
+        shortcutNames.add(mParent.getString(R.string.profile_applist_title));
         shortcutNames.add(mParent.getString(R.string.picker_activities));
         bundle.putStringArrayList(Intent.EXTRA_SHORTCUT_NAME, shortcutNames);
 
@@ -123,9 +124,17 @@ public class ShortcutPickHelper {
 
     private void processShortcut(final Intent intent, int requestCodeApplication, int requestCodeShortcut) {
         // Handle case where user selected "Applications"
+        String applicationName = mParent.getString(R.string.profile_applist_title);
         String application2name = mParent.getString(R.string.picker_activities);
         String shortcutName = intent.getStringExtra(Intent.EXTRA_SHORTCUT_NAME);
-        if (application2name != null && application2name.equals(shortcutName)){
+        if (applicationName != null && applicationName.equals(shortcutName)) {
+            Intent mainIntent = new Intent(Intent.ACTION_MAIN, null);
+            mainIntent.addCategory(Intent.CATEGORY_LAUNCHER);
+
+            Intent pickIntent = new Intent(Intent.ACTION_PICK_ACTIVITY);
+            pickIntent.putExtra(Intent.EXTRA_INTENT, mainIntent);
+            startFragmentOrActivity(pickIntent, requestCodeApplication);
+        } else if (application2name != null && application2name.equals(shortcutName)){
             final List<PackageInfo> pInfos = mPackageManager.getInstalledPackages(PackageManager.GET_ACTIVITIES);
             ExpandableListView appListView = new ExpandableListView(mParent);
             AppExpandableAdapter appAdapter = new AppExpandableAdapter(pInfos, mParent);
