@@ -4118,7 +4118,7 @@
     <string name="system_interface_title">Build Tweaks</string>
 
     <!-- Notification Drawer  -->
-    <string name="notification_drawer_title">Notification drawer</string>
+    <string name="notification_drawer_title">Power Widget</string>
 
     <!-- Combined Bar  -->
     <string name="combined_bar_title">Combined bar</string>
