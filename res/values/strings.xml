@@ -4268,7 +4268,6 @@
     <string name="volume_ring_only_description">Ringtones</string>
 
     <!-- Wakeup options -->
-    <string name="display_category_wakeup_options_title">Wakeup options</string>
     <string name="pref_volume_wake_title">Volume rocker wake</string>
     <string name="pref_volume_wake_summary">Pressing the volume rocker will wake your Nexus</string>
 
