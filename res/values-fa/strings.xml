@@ -197,13 +197,8 @@
     <string name="radio_info_roaming_label" msgid="6141505430275138647">"رومینگ:"</string>
     <string name="radio_info_imei_label" msgid="1220524224732944192">"IMEI:"</string>
     <string name="radio_info_call_redirect_label" msgid="1654674226961476872">"تغییر مسیر تماس:"</string>
-<<<<<<< HEAD
-    <string name="radio_info_ppp_resets_label" msgid="3241667824729310546">"تعداد بازنشانی PPP از زمان راه اندازی:"</string>
-    <string name="radio_info_gsm_disconnects_label" msgid="1683069665736339820">"GSM قطع می کند:"</string>
-=======
     <string name="radio_info_ppp_resets_label" msgid="3241667824729310546">"تعداد بازنشانی PPP از زمان راه‌اندازی:"</string>
     <string name="radio_info_gsm_disconnects_label" msgid="1683069665736339820">"GSM قطع می‌کند:"</string>
->>>>>>> AOSP/jb-mr0-release
     <string name="radio_info_current_network_label" msgid="3256402602440102610">"شبکه فعلی:"</string>
     <string name="radio_info_data_successes_label" msgid="4417894113689054945">"دفعات موفقیت داده:"</string>
     <string name="radio_info_ppp_received_label" msgid="3345184342444878849">"PPP دریافت شده:"</string>
