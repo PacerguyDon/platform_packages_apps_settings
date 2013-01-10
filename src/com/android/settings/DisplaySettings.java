@@ -156,7 +156,7 @@ public class DisplaySettings extends SettingsPreferenceFragment implements
                     getPreferenceScreen().removePreference((PreferenceCategory) findPreference(KEY_WAKEUP_CATEGORY));
                 } else {
                 mVolumeWake.setChecked(Settings.System.getInt(resolver,
-                    Settings.System.VOLUME_WAKE_SCREEN, 0) == 1);
+                    Settings.System.VOLUME_WAKE_SCREEN, 1) != 0);
                 }
                 }
             }
